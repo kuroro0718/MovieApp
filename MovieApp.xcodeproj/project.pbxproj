@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EBFCF52F1D7948EB004B844E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCF52E1D7948EB004B844E /* AppDelegate.swift */; };
-		EBFCF5311D7948EB004B844E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCF5301D7948EB004B844E /* ViewController.swift */; };
 		EBFCF5341D7948EB004B844E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFCF5321D7948EB004B844E /* Main.storyboard */; };
 		EBFCF5361D7948EB004B844E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFCF5351D7948EB004B844E /* Assets.xcassets */; };
 		EBFCF5391D7948EB004B844E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFCF5371D7948EB004B844E /* LaunchScreen.storyboard */; };
+		EBFCF5411D795107004B844E /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCF5401D795107004B844E /* MovieTableViewController.swift */; };
+		EBFCF5441D795214004B844E /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCF5421D795214004B844E /* MovieTableViewCell.swift */; };
+		EBFCF5451D795214004B844E /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBFCF5431D795214004B844E /* MovieTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBFCF52B1D7948EB004B844E /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFCF52E1D7948EB004B844E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBFCF5301D7948EB004B844E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EBFCF5331D7948EB004B844E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBFCF5351D7948EB004B844E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBFCF5381D7948EB004B844E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBFCF53A1D7948EB004B844E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFCF5401D795107004B844E /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		EBFCF5421D795214004B844E /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		EBFCF5431D795214004B844E /* MovieTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				EBFCF52E1D7948EB004B844E /* AppDelegate.swift */,
-				EBFCF5301D7948EB004B844E /* ViewController.swift */,
+				EBFCF5421D795214004B844E /* MovieTableViewCell.swift */,
+				EBFCF5431D795214004B844E /* MovieTableViewCell.xib */,
+				EBFCF5401D795107004B844E /* MovieTableViewController.swift */,
 				EBFCF5321D7948EB004B844E /* Main.storyboard */,
 				EBFCF5351D7948EB004B844E /* Assets.xcassets */,
 				EBFCF5371D7948EB004B844E /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			files = (
 				EBFCF5391D7948EB004B844E /* LaunchScreen.storyboard in Resources */,
 				EBFCF5361D7948EB004B844E /* Assets.xcassets in Resources */,
+				EBFCF5451D795214004B844E /* MovieTableViewCell.xib in Resources */,
 				EBFCF5341D7948EB004B844E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBFCF5311D7948EB004B844E /* ViewController.swift in Sources */,
 				EBFCF52F1D7948EB004B844E /* AppDelegate.swift in Sources */,
+				EBFCF5411D795107004B844E /* MovieTableViewController.swift in Sources */,
+				EBFCF5441D795214004B844E /* MovieTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				EBFCF53F1D7948EB004B844E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
