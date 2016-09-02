@@ -14,6 +14,7 @@
 		EBFCF5411D795107004B844E /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCF5401D795107004B844E /* MovieTableViewController.swift */; };
 		EBFCF5441D795214004B844E /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCF5421D795214004B844E /* MovieTableViewCell.swift */; };
 		EBFCF5451D795214004B844E /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBFCF5431D795214004B844E /* MovieTableViewCell.xib */; };
+		EBFCF5491D795A75004B844E /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCF5481D795A75004B844E /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EBFCF5401D795107004B844E /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 		EBFCF5421D795214004B844E /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		EBFCF5431D795214004B844E /* MovieTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		EBFCF5481D795A75004B844E /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				EBFCF52E1D7948EB004B844E /* AppDelegate.swift */,
 				EBFCF5421D795214004B844E /* MovieTableViewCell.swift */,
 				EBFCF5431D795214004B844E /* MovieTableViewCell.xib */,
+				EBFCF5481D795A75004B844E /* MovieDetailViewController.swift */,
 				EBFCF5401D795107004B844E /* MovieTableViewController.swift */,
 				EBFCF5321D7948EB004B844E /* Main.storyboard */,
 				EBFCF5351D7948EB004B844E /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBFCF5491D795A75004B844E /* MovieDetailViewController.swift in Sources */,
 				EBFCF52F1D7948EB004B844E /* AppDelegate.swift in Sources */,
 				EBFCF5411D795107004B844E /* MovieTableViewController.swift in Sources */,
 				EBFCF5441D795214004B844E /* MovieTableViewCell.swift in Sources */,
